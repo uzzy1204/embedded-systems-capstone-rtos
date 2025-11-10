@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16)
+project(rtos_sim C)
+set(CMAKE_C_STANDARD 11)
+add_executable(rtos_sim src/main.c)
+target_compile_definitions(rtos_sim PRIVATE SIMULATED_RTOS=1)

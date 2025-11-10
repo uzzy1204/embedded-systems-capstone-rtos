@@ -1,0 +1,14 @@
+name: host-sim-build
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build host-sim
+        run: |
+          mkdir -p host-sim/build
+          cd host-sim/build
+          cmake ..
+          cmake --build .
+          ./rtos_sim
