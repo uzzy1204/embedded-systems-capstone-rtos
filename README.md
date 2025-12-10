@@ -64,7 +64,7 @@ The STM32 runs:
 | `Task_Control` | 200 ms | Automatically toggles relay |
 | `Task_Heartbeat` | 500 ms | LED blink showing RTOS alive |
 
-### ✔ RTOS Features Implemented
+###  RTOS Features Implemented
 - Custom task scheduler  
 - SysTick-driven timing  
 - Context-style task switching  
