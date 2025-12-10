@@ -91,7 +91,7 @@ The ESP8266 provides:
 
 ---
 
-# 🔌 Wiring Overview
+#  Wiring Overview
 
 ### **INA219 (Fan @ 0x40)**
 
@@ -121,7 +121,7 @@ GND → Relay GND
 
 ---
 
-# 🔄 Software Interaction Flow
+#  Software Interaction Flow
 
 ### STM32 Responsibilities
 - Custom RTOS scheduling  
@@ -139,7 +139,7 @@ GND → Relay GND
 
 ---
 
-# 🚀 Build & Run Instructions
+#  Build & Run Instructions
 
 ### **STM32 (RTOS firmware)**
 1. Open project in STM32CubeIDE  
